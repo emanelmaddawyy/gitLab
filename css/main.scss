@@ -1,0 +1,48 @@
+$main-color:#074D94;
+$secondary-color:#167AE0;
+$red-color:#E00E00;
+%border-radius{
+  border-radius: 15px;
+}
+header{
+  @extend %border-radius;
+  background-color: $main-color;
+  color: #ffffff;
+
+}
+.content{
+  h3{
+    @extend %border-radius;
+    border:1px solid #eee;
+  }
+  p
+  {
+    text-align: justify;
+    mark{
+      color: $red-color;
+    }
+  }
+  button{
+    padding: 5px 10px;
+    width:100px;
+  }
+  button.btn.dropdown-toggle{
+    background-color: $main-color;
+    color: #fff;
+    width: auto;
+  }
+  
+  .card{
+   border:0;
+   span i{
+     color: $red-color;
+     font-size: 50px;
+   }
+   span.rounded-circle{
+     background-color: $secondary-color;
+     color: #fff;
+     font-size: 12px;
+       }
+     
+  }
+}

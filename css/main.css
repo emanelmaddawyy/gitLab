@@ -1,0 +1,47 @@
+header, .content h3 {
+  border-radius: 15px;
+}
+
+header {
+  background-color: #074D94;
+  color: #ffffff;
+}
+
+.content h3 {
+  border: 1px solid #eee;
+}
+
+.content p {
+  text-align: justify;
+}
+
+.content p mark {
+  color: #E00E00;
+}
+
+.content button {
+  padding: 5px 10px;
+  width: 100px;
+}
+
+.content button.btn.dropdown-toggle {
+  background-color: #074D94;
+  color: #fff;
+  width: auto;
+}
+
+.content .card {
+  border: 0;
+}
+
+.content .card span i {
+  color: #E00E00;
+  font-size: 50px;
+}
+
+.content .card span.rounded-circle {
+  background-color: #167AE0;
+  color: #fff;
+  font-size: 12px;
+}
+/*# sourceMappingURL=main.css.map */
